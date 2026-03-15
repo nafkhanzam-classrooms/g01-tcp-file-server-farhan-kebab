@@ -43,10 +43,10 @@ File `server-poll.py` menggunakan mekanisme polling dengan fungsi `poll`. Server
 
 Saat ada data dari client, server akan membaca data tersebut dan memprosesnya, misalnya mengirim pesan ke client lain atau menjalankan perintah tertentu. Metode ini mirip dengan `select`, tetapi biasanya lebih scalable untuk jumlah koneksi yang lebih banyak.
 ## Screenshot Hasil
-![alt text](image.png)
-![alt text](image-1.png)
-![alt text](image-2.png)
-![alt text](image-3.png)
-![alt text](image-4.png)
-![alt text](image-5.png)
-![alt text](image-6.png)
+![alt text](image/image.png)
+![alt text](image/image-1.png)
+![alt text](image/image-2.png)
+![alt text](image/image-3.png)
+![alt text](image/image-4.png)
+![alt text](image/image-5.png)
+![alt text](image/image-6.png)
