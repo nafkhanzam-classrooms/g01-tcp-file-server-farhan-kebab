@@ -96,6 +96,12 @@ Saat ada data dari client, server akan membaca data tersebut dan memprosesnya, m
 ![alt text](image/image-5.png)
 
 ### Langkah-langkah
+1. Masuk terminal client lalu ketik:
+
+    ```python
+    /list coba.txt
+    ```
+2. Setelah itu akan ditampilkan semua file yang ada di folder `server_files`
 
 <br>
 
@@ -104,3 +110,12 @@ Saat ada data dari client, server akan membaca data tersebut dan memprosesnya, m
 ![alt text](image/image-6.png)
 
 ### Langkah-langkah
+1. Masuk terminal client lalu ketik:
+
+    ```python
+    /download coba.txt
+    ```
+2. Setelah itu `download_coba.txt` akan muncul di folder client
+
+> [!IMPORTANT] 
+> Berlaku juga untuk file yang di dalamnya ada isinya.
