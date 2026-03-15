@@ -43,9 +43,16 @@ File `server-poll.py` menggunakan mekanisme polling dengan fungsi `poll`. Server
 
 Saat ada data dari client, server akan membaca data tersebut dan memprosesnya, misalnya mengirim pesan ke client lain atau menjalankan perintah tertentu. Metode ini mirip dengan `select`, tetapi biasanya lebih scalable untuk jumlah koneksi yang lebih banyak.
 ## Screenshot Hasil
+
+## Broadcast Messages
+
 ![alt text](image/image.png)
 
-### Langkah-langkah
+![alt text](image/image-1.png)
+
+![alt text](image/image-2.png)
+
+### Langkah-langkah 
 1. Buka 5 terminal (WSL bila di windows).
 2. Nyalakan `server-thread.py` di terminal 1
 
@@ -61,9 +68,39 @@ Saat ada data dari client, server akan membaca data tersebut dan memprosesnya, m
 6. Pastikan di terminal 1 ada tambahan baris Connected... sebagai tanda bahwa client sudah terhubung ke server.
 7. Test dengan mengetikkan `halo` di salah satu client, maka akan keluar `halo` juga di client di terminal lain.
 
-![alt text](image/image-1.png)
-![alt text](image/image-2.png)
+<br>
+
+## /upload
+
 ![alt text](image/image-3.png)
+
 ![alt text](image/image-4.png)
+
+### Langkah-langkah
+1. Buka folder yang ada clientnya.
+2. Tambahkan file `coba.txt`.
+3. Masuk terminal client lalu ketik:
+
+    ```python
+    /upload coba.txt
+    ```
+4. Setelah itu `coba.txt` akan masuk ke `server_files`
+
+> [!IMPORTANT] 
+> Berlaku juga untuk file yang di dalamnya ada isinya.
+
+<br>
+
+## /list
+
 ![alt text](image/image-5.png)
+
+### Langkah-langkah
+
+<br>
+
+## /download
+
 ![alt text](image/image-6.png)
+
+### Langkah-langkah
