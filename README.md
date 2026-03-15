@@ -2,10 +2,11 @@
 # Network Programming - Assignment G01
 
 ## Anggota Kelompok
-| Nama           | NRP        | Kelas     |
-| Lyonel Oliver Dwiputra | 5025241145| C |
-| Hosea Felix Sanjaya    | 5025241177| C |
-|                |            |           |
+
+| Nama                    | NRP        | Kelas |
+|-------------------------|------------|-------|
+| Lyonel Oliver Dwiputra  | 5025241145 | C     |
+| Hosea Felix Sanjaya     | 5025241177 | C     |
 
 ## Link Youtube (Unlisted)
 Link ditaruh di bawah ini
