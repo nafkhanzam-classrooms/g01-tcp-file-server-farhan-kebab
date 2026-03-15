@@ -3,14 +3,14 @@
 
 ## Anggota Kelompok
 | Nama           | NRP        | Kelas     |
-| ---            | ---        | ----------|
-|                |            |           |
+| Lyonel Oliver Dwiputra | 5025241145| C |
+| Hosea Felix Sanjaya | 5025241177| C |
 |                |            |           |
 
 ## Link Youtube (Unlisted)
 Link ditaruh di bawah ini
 ```
-
+https://youtu.be/yX8AjO9mVlA
 ```
 
 ## Penjelasan Program
