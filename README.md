@@ -44,6 +44,23 @@ File `server-poll.py` menggunakan mekanisme polling dengan fungsi `poll`. Server
 Saat ada data dari client, server akan membaca data tersebut dan memprosesnya, misalnya mengirim pesan ke client lain atau menjalankan perintah tertentu. Metode ini mirip dengan `select`, tetapi biasanya lebih scalable untuk jumlah koneksi yang lebih banyak.
 ## Screenshot Hasil
 ![alt text](image/image.png)
+
+### Langkah-langkah
+1. Buka 5 terminal (WSL bila di windows).
+2. Nyalakan `server-thread.py` di terminal 1
+
+    ```python
+    python3 server-thread.py
+    ```
+4. Pastikan ada tulisan Terminal Server running... sebagai tanda bahwa server nyala.
+5. Nyalakan `client.py` di terminal 2, 3, 4, dan 5
+
+    ```python
+    python3 client.py
+    ```
+6. Pastikan di terminal 1 ada tambahan baris Connected... sebagai tanda bahwa client sudah terhubung ke server.
+7. Test dengan mengetikkan `halo` di salah satu client, maka akan keluar `halo` juga di client di terminal lain.
+
 ![alt text](image/image-1.png)
 ![alt text](image/image-2.png)
 ![alt text](image/image-3.png)
